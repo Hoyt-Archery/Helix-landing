@@ -1,0 +1,477 @@
+
+<style>
+body{
+  font-size: 2vw;
+}
+.keet-code{
+  width: 98%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 969px){
+  .keet-header{
+
+  }
+
+  .keet-h1{
+    font-size: 3vw;
+    text-align: center;
+    width: 52vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .keet-h2{
+    font-size: 3vw;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .keet-sub-heading{
+    width: 51%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -15px;
+  }
+  .keet-hero-image{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .keet-box-shift{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -150px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .keet-photo-text{
+    width: 30%;
+    overflow: hidden;
+  }
+
+  .keet-photo-text img{
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .keet-photo-text p{
+    font-size: 1.5vw;
+  }
+
+
+  hr{
+    margin-top: 50px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .keet-checkerboard{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .checkerboard-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch:
+
+  }
+  .checkerboard-left img{
+    width: 50%;
+    height: 35vw;
+  }
+
+  .checkerboard-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch:
+  }
+  .checkerboard-right img{
+    width: 50%;
+    height: 30vw;
+  }
+  .checkertext{
+    width: 50%;
+  }
+  .keet-checkerboard-text{
+    margin-right: 50px;
+    margin-left: 50px;
+    background: transparent;
+    max-height: 40vw;
+    overflow: hidden;
+  }
+  .keet-checkerboard-text h5{
+    font-size: 30px;
+  }
+  .keet-checkerboard-text p{
+        margin-top: -35px;
+        font-size: 24px;
+  }
+
+
+.keet-bow-flex-table-main{
+
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .keet-bow-table-flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .keet-call-to-action-bottom{
+    position: relative;
+    top: 350px;
+  }
+  .keet-cta-photo-overlay{
+    position: relative;
+    text-align: center;
+
+  }
+  .keet-cta-photo-overlay {
+     background-image: url("http://fusearchery.co/images/Helix.jpg");
+     height: 500px;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  }
+  .keet-cta-photo-overlay h1{
+    position: relative;
+    top: 350px;
+  }
+.keet-cta-photo-overlay button{
+    position: relative;
+top: 350px;
+height: 50px;
+width: auto;
+padding: 0 50px;
+border-radius: 50px;
+background: red;
+border: none;
+font-weight: 700;
+  }
+  .keet-Helix-Specs-Title{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .Keet-Helix-Specs-Svg{
+    width: 250px;
+    margin-right: 75px;
+  }
+  .mobile-keet-h1{
+    display: none;
+  }
+  .mobile-keet-sub-heading{
+    display: none;
+  }
+  .keet-cta-photo-overlay button:hover{
+    height: 60px;
+    -webkit-transition: width 2s; /* Safari */
+ transition: width 2s;
+  }
+  .hr{
+    width: 53%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+  }
+  .keet-bow-specs{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 9%;
+  }
+}
+@media screen and (max-width: 968px){
+
+
+  .keet-cta-photo-overlay button:hover{
+    background: white;
+    color: red;
+  }
+  .keet-h1{
+    display: none;
+  }
+  .keet-sub-heading{
+    display: none;
+  }
+  .keet-hero-image{
+    width: 100%;
+  }
+.mobile-keet-h1{
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobile-keet-sub-heading{
+  text-align: center;
+  font-size: 1rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.keet-photo-text img{
+  width: 100%;
+  margin-bottom: -37px;
+}
+.keet-h5{
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.keet-box-shift p{
+  font-size: 1rem;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: -40px;
+margin-bottom: 23px;
+}
+iframe{
+  width: 100%;
+  height: 350px;
+}
+.keet-h2{
+  font-size: 1.6rem;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+img{
+  width: 100%;
+}
+h5{
+  font-size: 1.3rem;
+}
+p{
+  font-size: 1.3rem;
+    color: #757575;
+}
+.checkerboard-left{
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+
+}
+.keet-Helix-Specs-Title{
+  font-size: 2rem;
+margin-left: 10px;
+margin-right: 20px;
+}
+.keet-bow-table-flex{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.keet-bow-table-flex{
+  width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.keet-bow-table-flex img{
+  margin-top: 50px;
+}
+
+h1{
+      font-size: 1.8rem;
+      text-align: center;
+}
+
+.keet-bow-table-flex{
+    display: flex;
+    flex-direction: row;
+}
+.Keet-Helix-Specs-Svg{
+  height: 100%;
+}
+button{
+  margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    background: red;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 130px;
+
+}
+.keet-cta-photo-overlay{
+  margin-top: 30px;
+}
+.mobile-sub{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.keet-checkerboard-text p{
+      margin-top: -20px;
+}
+.hr{
+  width: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 34px;
+margin-bottom: 20px;
+
+}
+
+}
+
+
+.keet-helix-hr{
+  width: 200px;
+  margin-top: 0px;
+}
+
+</style>
+
+<!-- <link rel="stylesheet" type="text/css" href="http://fusearchery.co/helix.css"> -->
+
+<img src="http://fusearchery.co/images/hr-Helix-Page.svg" class="hr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="keet-code">
+ <h1 class="keet-h1">We sought to silence a bow and left an entire industry speachless.</h1>
+ <p class="keet-sub-heading">On any hunt, the smallest, quietest, most subtle details matter. Never is that more obvious than the moment you squeeze your release. That instant, that freakisly small moment, became an obsession for our engineers. From the construction of a state-of-the-art sound room to hundreds of hours of testing, their relentless pursuit delivered a bow that wasw silent in ways previously unheard of. This is the new Helix. Our quietest bow ever.</p>
+   <img src="http://fusearchery.co/images/DSC_3927.jpg" alt="Hoyt Helix" class="keet-hero-image">
+   <h1 class="mobile-keet-h1">We sought to silence a bow and left an entire industry speachless.</h1>
+   <p class="mobile-keet-sub-heading">On any hunt, the smallest, quietest, most subtle details matter. Never is that more obvious than the moment you squeeze your release. That instant, that freakishly small moment, became an obsession for our engineers. From the construction of a state-of-the-art sound room to hundreds of hours of testing, their relentless pursuit delivered a bow that was silent in ways previously unheard of. This is the new Helix. Our quietest aluminum bow ever.</p>
+
+<div class="keet-box-shift">
+ <div class="keet-photo-text">
+   <img src="http://fusearchery.co/images/main_gif" alt="some great text here.">
+     <h5 class="keet-h5">THE SOUND OF SILENCE</h5>
+     <p>With one shot, the all-new Helix quietly shattered every record in Hoyt’s record book for shot silence and vibration damping. Everything about the Helix was designed and engineered for performance, accuracy and silence.</p>
+ </div>
+ <div class="keet-photo-text">
+   <img src="http://fusearchery.co/images/Cam%20Hanes_3.jpg" alt="some great text here.">
+     <h5 class="keet-h5">HAMMERING CONVENTION</h5>
+       <p>“I shoot my bow every day. It’s not only part of my routine, but it’s something I love to do. And the Helix has taken it to the next level for me. I love the solid construction, the super-smooth draw cycle, the crazy accuracy and the dead-silent shot. This bow is ready for elk season.” – Cameron Hanes</p>
+         </div>
+           <div class="keet-photo-text">
+             <img src="http://fusearchery.co/images/Enlight1205.JPG" alt="some great text here.">
+         <h5 class="keet-h5">NOCK ON APPROVED</h5>
+     <p>"“The Helix is bar-none one of my all-time favorite bows. It balances and aims like no other and shoots lights-out. This thing is an absolute silent assassin.” – John Dudley"</p>
+   </div>
+ </div>
+<iframe width="100%" height="950" src="https://www.youtube.com/embed/Oe86px8SoS4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="http://fusearchery.co/images/hr-Helix-Page.svg" class="hr">
+<h1 class="keet-h2">SILENCE IS ONLY PART OF THE STORY.</h1>
+
+<p class="keet-sub-heading mobile-sub">The Helix touts our fastest and smoothest cam to-date. We engineered a unique riser designed to improve balance and accuracy. And we developed a revolutionary new string silencer made from cutting edge proprietary material. Every part of the Helix was deliberately designed to help you tag out.</p>
+
+<section class="keet-checkerboard">
+
+ <section class="checkerboard-left">
+   <img src="http://fusearchery.co/images/DSC_3954.jpg" alt="some text">
+       <div class="checkertext">
+         <div class="keet-checkerboard-text">
+           <h5>ZT PRO CAM™</h5>
+           <p>A smooth, controlled draw means more stability under pressure. Whether drawing on a skittish buck or a screaming bull — the ZT Pro Cam is built for when it matters most.</p>
+       </div>
+     </div>
+ </section>
+
+ <section class="checkerboard-right">
+     <div class="checkertext">
+         <div class="keet-checkerboard-text">
+           <h5>SHOCK PODS</h5>
+           <p>Our innovative Shock Pod Vibration Damping System takes any vibration in the riser and channels it out of your bow - leaving you with nothing but a dead-in-hand shot and sweet, sweet silence.</p>
+       </div>
+     </div>
+   <img src="http://fusearchery.co/images/SHOCK-POD1" alt="some text">
+ </section>
+
+ <section class="checkerboard-left">
+   <img src="http://fusearchery.co/images/DSC_3947.jpg" alt="some text">
+       <div class="checkertext">
+         <div class="keet-checkerboard-text">
+           <h5>ROLLER CABLE GUARD</h5>
+           <p>We engineered these silky-smooth roller guards for an even smoother draw cycle, reduced friction, increased efficiency and more down range energy. One more example of how nothing was overlooked on the Helix.</p>
+       </div>
+     </div>
+ </section>
+
+ <section class="checkerboard-right">
+     <div class="checkertext">
+         <div class="keet-checkerboard-text">
+           <h5>X-ACT™ GRIP SYSTEM</h5>
+           <p>Your first impression shooting the Helix ultimately starts with the grip. Extensive, in-depth research and development made sure that experience was as good as it gets. From the width and angle to the overall shape, the X-Act Grip practically holds your hand through the shot, making sure you have proper hand placement time and time again. Because in archery, consistency is accuracy.</p>
+       </div>
+     </div>
+   <img src="http://fusearchery.co/images/DSC_3951.jpg" alt="some text">
+ </section>
+
+ <section class="checkerboard-left">
+   <img src="http://fusearchery.co/images\DSC_3948.jpg" alt="some text">
+       <div class="checkertext">
+         <div class="keet-checkerboard-text">
+           <h5>STEALTHSHOT™</h5>
+           <p>The time-tested StealthShot got upgraded with all-new proprietary material to kill more noise and vibration than ever before. But that’s only half the story. In addition to crushing noise, the StealthShot delivers a cleaner, crisper release of the arrow from the string. That means increased accuracy and forgiveness no matter what the conditions.</p>
+       </div>
+     </div>
+ </section>
+
+ <section class="checkerboard-right">
+     <div class="checkertext">
+         <div class="keet-checkerboard-text">
+           <h5>REAR STABILIZER MOUNT</h5>
+           <p>No single bow setup is perfect for everyone. The key to accuracy is customizing your bow to your shot. We added an integrated rear stabilizer mount so you can seamlessly balance your rig your way. Get the shot you want from the bow you need with the new Helix.</p>
+       </div>
+     </div>
+   <img src="http://fusearchery.co/images/DSC_3945.jpg" alt="some text">
+ </section>
+
+</section>
+
+<h1 class="keet-Helix-Specs-Title">HELIX SPECIFICATIONS</h1>
+<section class="keet-bow-flex-table-main" >
+  <img src="http://fusearchery.co/images/helix-specs.svg" class="keet-bow-specs">
+  <img src="http://fusearchery.co/images/helix-ultra-specs.svg" class="keet-bow-specs">
+
+
+</section>
+
+
+<div class="keet-cta-photo-overlay">
+<h1 style="color: white;">ORDERS YOURS TODAY</h1>
+<a href="https://hoyt.com/archery-dealers" style="text-decoration: none;"><button>DEALER LOCATOR</button></a>
+</div>
+  </section>
